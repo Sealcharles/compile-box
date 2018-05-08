@@ -1,0 +1,24 @@
+{
+  "name": "compile-box",
+  "version": "1.0.0",
+  "description": "A snadbox environment for running docker containers in an isolated environment ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sealcharles/compile-box.git"
+  },
+  "author": "sealcharles",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "dotenv": "^5.0.1",
+    "logger": "0.0.1",
+    "path": "^0.12.7",
+    "restify": "^7.1.1",
+    "shelljs": "^0.8.1",
+    "unirest": "^0.5.1"
+  }
+}

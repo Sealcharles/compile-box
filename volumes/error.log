@@ -1,0 +1,517 @@
+2018-05-01 18:35:34 139838788397896 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-05-01 18:35:34 139838788397896 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-05-01 18:35:34 139838788397896 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-05-01 18:35:34 139838788397896 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2018-05-01 18:35:34 139838788397896 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2018-05-01 18:35:34 139838788397896 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2018-05-01 18:35:34 139838788397896 [Note] InnoDB: Using Linux native AIO
+2018-05-01 18:35:34 139838788397896 [Note] InnoDB: Using SSE crc32 instructions
+2018-05-01 18:35:34 139838788397896 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2018-05-01 18:35:34 139838788397896 [Note] InnoDB: Completed initialization of buffer pool
+2018-05-01 18:35:34 139838788397896 [Note] InnoDB: The first specified data file ./ibdata1 did not exist: a new database to be created!
+2018-05-01 18:35:34 139838788397896 [Note] InnoDB: Setting file ./ibdata1 size to 12 MB
+2018-05-01 18:35:34 139838788397896 [Note] InnoDB: Setting log file ./ib_logfile101 size to 48 MB
+2018-05-01 18:35:35 139838788397896 [Note] InnoDB: Setting log file ./ib_logfile1 size to 48 MB
+2018-05-01 18:35:35 139838788397896 [Note] InnoDB: Renaming log file ./ib_logfile101 to ./ib_logfile0
+2018-05-01 18:35:35 139838788397896 [Warning] InnoDB: New log files created, LSN=45883
+2018-05-01 18:35:35 139838788397896 [Note] InnoDB: Doublewrite buffer not found: creating new
+2018-05-01 18:35:35 139838788397896 [Note] InnoDB: Doublewrite buffer created
+2018-05-01 18:35:35 139838788397896 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-05-01 18:35:35 139838788397896 [Warning] InnoDB: Creating foreign key constraint system tables.
+2018-05-01 18:35:35 139838788397896 [Note] InnoDB: Foreign key constraint system tables created
+2018-05-01 18:35:35 139838788397896 [Note] InnoDB: Creating tablespace and datafile system tables.
+2018-05-01 18:35:35 139838788397896 [Note] InnoDB: Tablespace and datafile system tables created.
+2018-05-01 18:35:35 139838788397896 [Note] InnoDB: Waiting for purge to start
+2018-05-01 18:35:35 139838788397896 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.1 started; log sequence number 0
+2018-05-01 18:35:35 139838425180904 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-05-01 18:35:35 139838424992488 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1146: Table 'mysql.gtid_slave_pos' doesn't exist
+2018-05-01 18:35:38 139729115986760 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-05-01 18:35:38 139729115986760 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-05-01 18:35:38 139729115986760 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-05-01 18:35:38 139729115986760 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2018-05-01 18:35:38 139729115986760 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2018-05-01 18:35:38 139729115986760 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2018-05-01 18:35:38 139729115986760 [Note] InnoDB: Using Linux native AIO
+2018-05-01 18:35:38 139729115986760 [Note] InnoDB: Using SSE crc32 instructions
+2018-05-01 18:35:38 139729115986760 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2018-05-01 18:35:38 139729115986760 [Note] InnoDB: Completed initialization of buffer pool
+2018-05-01 18:35:38 139729115986760 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-05-01 18:35:38 139729115986760 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-05-01 18:35:38 139729115986760 [Note] InnoDB: Waiting for purge to start
+2018-05-01 18:35:38 139729115986760 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.1 started; log sequence number 1616799
+2018-05-01 18:35:38 139728759761640 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-05-01 18:35:43 140094624119624 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-05-01 18:35:43 140094624119624 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-05-01 18:35:43 140094624119624 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-05-01 18:35:43 140094624119624 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2018-05-01 18:35:43 140094624119624 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2018-05-01 18:35:43 140094624119624 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2018-05-01 18:35:43 140094624119624 [Note] InnoDB: Using Linux native AIO
+2018-05-01 18:35:43 140094624119624 [Note] InnoDB: Using SSE crc32 instructions
+2018-05-01 18:35:43 140094624119624 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2018-05-01 18:35:43 140094624119624 [Note] InnoDB: Completed initialization of buffer pool
+2018-05-01 18:35:43 140094624119624 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-05-01 18:35:43 140094624119624 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-05-01 18:35:43 140094624119624 [Note] InnoDB: Waiting for purge to start
+2018-05-01 18:35:43 140094624119624 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.1 started; log sequence number 1616809
+2018-05-01 18:35:43 140094267894504 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-05-01 18:35:46 140235408198472 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-05-01 18:35:46 140235408198472 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-05-01 18:35:46 140235408198472 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-05-01 18:35:46 140235408198472 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2018-05-01 18:35:46 140235408198472 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2018-05-01 18:35:46 140235408198472 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2018-05-01 18:35:46 140235408198472 [Note] InnoDB: Using Linux native AIO
+2018-05-01 18:35:47 140235408198472 [Note] InnoDB: Using SSE crc32 instructions
+2018-05-01 18:35:47 140235408198472 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2018-05-01 18:35:47 140235408198472 [Note] InnoDB: Completed initialization of buffer pool
+2018-05-01 18:35:47 140235408198472 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-05-01 18:35:47 140235408198472 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-05-01 18:35:47 140235408198472 [Note] InnoDB: Waiting for purge to start
+2018-05-01 18:35:47 140235408198472 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.1 started; log sequence number 1616819
+2018-05-01 18:35:47 140235051973352 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-05-01 18:35:47 140235408198472 [Note] Plugin 'FEEDBACK' is disabled.
+ERROR: 1133  Can't find any matching row in the user table
+2018-05-01 18:35:47 140235408198472 [ERROR] Aborting
+
+2018-05-01 18:35:49 140596379732808 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-05-01 18:35:50 140596379732808 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-05-01 18:35:50 140596379732808 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-05-01 18:35:50 140596379732808 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2018-05-01 18:35:50 140596379732808 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2018-05-01 18:35:50 140596379732808 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2018-05-01 18:35:50 140596379732808 [Note] InnoDB: Using Linux native AIO
+2018-05-01 18:35:50 140596379732808 [Note] InnoDB: Using SSE crc32 instructions
+2018-05-01 18:35:50 140596379732808 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2018-05-01 18:35:50 140596379732808 [Note] InnoDB: Completed initialization of buffer pool
+2018-05-01 18:35:50 140596379732808 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-05-01 18:35:50 140596379732808 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-05-01 18:35:50 140596379732808 [Note] InnoDB: Waiting for purge to start
+2018-05-01 18:35:50 140596379732808 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.1 started; log sequence number 1616829
+2018-05-01 18:35:50 140596023507688 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-05-01 18:35:50 140596379732808 [Note] Plugin 'FEEDBACK' is disabled.
+2018-05-01 18:35:50 140596379732808 [Note] Server socket created on IP: '0.0.0.0'.
+2018-05-01 18:35:50 140596379732808 [Note] /usr/bin/mysqld: ready for connections.
+Version: '10.1.26-MariaDB'  socket: '/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2018-05-01 18:40:50 140596022373096 [Note] /usr/bin/mysqld: Normal shutdown
+
+2018-05-01 18:40:50 140596022373096 [Note] Event Scheduler: Purging the queue. 0 events
+2018-05-01 18:40:50 140596023884520 [Note] InnoDB: FTS optimize thread exiting.
+2018-05-01 18:40:50 140596022373096 [Note] InnoDB: Starting shutdown...
+2018-05-01 18:40:51 140596022373096 [Note] InnoDB: Waiting for page_cleaner to finish flushing of buffer pool
+2018-05-01 18:40:52 140596022373096 [Note] InnoDB: Shutdown completed; log sequence number 1616839
+2018-05-01 18:40:52 140596022373096 [Note] /usr/bin/mysqld: Shutdown complete
+
+2018-05-01 18:41:37 140575473707848 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-05-01 18:41:37 140575473707848 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-05-01 18:41:37 140575473707848 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-05-01 18:41:37 140575473707848 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2018-05-01 18:41:37 140575473707848 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2018-05-01 18:41:37 140575473707848 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2018-05-01 18:41:37 140575473707848 [Note] InnoDB: Using Linux native AIO
+2018-05-01 18:41:37 140575473707848 [Note] InnoDB: Using SSE crc32 instructions
+2018-05-01 18:41:37 140575473707848 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2018-05-01 18:41:37 140575473707848 [Note] InnoDB: Completed initialization of buffer pool
+2018-05-01 18:41:37 140575473707848 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-05-01 18:41:38 140575473707848 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-05-01 18:41:38 140575473707848 [Note] InnoDB: Waiting for purge to start
+2018-05-01 18:41:38 140575473707848 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.1 started; log sequence number 1616839
+2018-05-01 18:41:38 140575117482728 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-05-01 18:41:38 140575473707848 [Note] Plugin 'FEEDBACK' is disabled.
+ERROR: 1133  Can't find any matching row in the user table
+2018-05-01 18:41:38 140575473707848 [ERROR] Aborting
+
+2018-05-01 18:41:41 140382003673928 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-05-01 18:41:41 140382003673928 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-05-01 18:41:41 140382003673928 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-05-01 18:41:41 140382003673928 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2018-05-01 18:41:41 140382003673928 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2018-05-01 18:41:41 140382003673928 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2018-05-01 18:41:41 140382003673928 [Note] InnoDB: Using Linux native AIO
+2018-05-01 18:41:41 140382003673928 [Note] InnoDB: Using SSE crc32 instructions
+2018-05-01 18:41:41 140382003673928 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2018-05-01 18:41:41 140382003673928 [Note] InnoDB: Completed initialization of buffer pool
+2018-05-01 18:41:41 140382003673928 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-05-01 18:41:41 140382003673928 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-05-01 18:41:41 140382003673928 [Note] InnoDB: Waiting for purge to start
+2018-05-01 18:41:41 140382003673928 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.1 started; log sequence number 1616849
+2018-05-01 18:41:41 140381647448808 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-05-01 18:41:41 140382003673928 [Note] Plugin 'FEEDBACK' is disabled.
+2018-05-01 18:41:41 140382003673928 [Note] Server socket created on IP: '0.0.0.0'.
+2018-05-01 18:41:41 140382003673928 [Note] /usr/bin/mysqld: ready for connections.
+Version: '10.1.26-MariaDB'  socket: '/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2018-05-01 22:17:59 140381646314216 [Note] /usr/bin/mysqld: Normal shutdown
+
+2018-05-01 22:17:59 140381646314216 [Note] Event Scheduler: Purging the queue. 0 events
+2018-05-01 22:17:59 140381647825640 [Note] InnoDB: FTS optimize thread exiting.
+2018-05-01 22:17:59 140381646314216 [Note] InnoDB: Starting shutdown...
+2018-05-01 22:18:00 140381646314216 [Note] InnoDB: Waiting for page_cleaner to finish flushing of buffer pool
+2018-05-01 22:18:01 140381646314216 [Note] InnoDB: Shutdown completed; log sequence number 1616859
+2018-05-01 22:18:01 140381646314216 [Note] /usr/bin/mysqld: Shutdown complete
+
+2018-05-01 22:23:27 140706688543560 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-05-01 22:23:27 140706688543560 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-05-01 22:23:27 140706688543560 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-05-01 22:23:27 140706688543560 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2018-05-01 22:23:27 140706688543560 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2018-05-01 22:23:27 140706688543560 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2018-05-01 22:23:27 140706688543560 [Note] InnoDB: Using Linux native AIO
+2018-05-01 22:23:27 140706688543560 [Note] InnoDB: Using SSE crc32 instructions
+2018-05-01 22:23:27 140706688543560 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2018-05-01 22:23:27 140706688543560 [Note] InnoDB: Completed initialization of buffer pool
+2018-05-01 22:23:27 140706688543560 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-05-01 22:23:27 140706688543560 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-05-01 22:23:27 140706688543560 [Note] InnoDB: Waiting for purge to start
+2018-05-01 22:23:27 140706688543560 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.1 started; log sequence number 1616859
+2018-05-01 22:23:27 140706332318440 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-05-01 22:23:27 140706688543560 [Note] Plugin 'FEEDBACK' is disabled.
+ERROR: 1133  Can't find any matching row in the user table
+2018-05-01 22:23:27 140706688543560 [ERROR] Aborting
+
+2018-05-01 22:23:30 139724538346312 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-05-01 22:23:30 139724538346312 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-05-01 22:23:30 139724538346312 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-05-01 22:23:30 139724538346312 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2018-05-01 22:23:30 139724538346312 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2018-05-01 22:23:30 139724538346312 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2018-05-01 22:23:30 139724538346312 [Note] InnoDB: Using Linux native AIO
+2018-05-01 22:23:30 139724538346312 [Note] InnoDB: Using SSE crc32 instructions
+2018-05-01 22:23:30 139724538346312 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2018-05-01 22:23:30 139724538346312 [Note] InnoDB: Completed initialization of buffer pool
+2018-05-01 22:23:30 139724538346312 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-05-01 22:23:30 139724538346312 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-05-01 22:23:30 139724538346312 [Note] InnoDB: Waiting for purge to start
+2018-05-01 22:23:30 139724538346312 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.1 started; log sequence number 1616869
+2018-05-01 22:23:30 139724182121192 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-05-01 22:23:30 139724538346312 [Note] Plugin 'FEEDBACK' is disabled.
+2018-05-01 22:23:31 139724538346312 [Note] Server socket created on IP: '0.0.0.0'.
+2018-05-01 22:23:31 139724538346312 [Note] /usr/bin/mysqld: ready for connections.
+Version: '10.1.26-MariaDB'  socket: '/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2018-05-01 22:29:35 140665800899400 [ERROR] mysqld: Can't lock aria control file '/var/lib/mysql/aria_log_control' for exclusive use, error: 11. Will retry for 30 seconds
+2018-05-01 22:30:06 140665800899400 [ERROR] mysqld: Got error 'Could not get an exclusive lock; file is probably in use by another process' when trying to use aria control file '/var/lib/mysql/aria_log_control'
+2018-05-01 22:30:06 140665800899400 [ERROR] Plugin 'Aria' init function returned error.
+2018-05-01 22:30:06 140665800899400 [ERROR] Plugin 'Aria' registration as a STORAGE ENGINE failed.
+2018-05-01 22:30:06 140665800899400 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-05-01 22:30:06 140665800899400 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-05-01 22:30:06 140665800899400 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-05-01 22:30:06 140665800899400 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2018-05-01 22:30:06 140665800899400 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2018-05-01 22:30:06 140665800899400 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2018-05-01 22:30:06 140665800899400 [Note] InnoDB: Using Linux native AIO
+2018-05-01 22:30:06 140665800899400 [Note] InnoDB: Using SSE crc32 instructions
+2018-05-01 22:30:06 140665800899400 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2018-05-01 22:30:06 140665800899400 [Note] InnoDB: Completed initialization of buffer pool
+2018-05-01 22:30:06 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:06 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:06 140665800899400 [Note] InnoDB: Retrying to lock the first data file
+2018-05-01 22:30:07 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:07 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:08 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:08 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:09 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:09 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:10 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:10 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:11 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:11 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:12 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:12 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:13 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:13 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:14 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:14 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:15 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:15 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:16 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:16 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:17 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:17 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:18 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:18 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:19 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:19 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:20 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:20 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:21 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:21 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:22 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:22 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:23 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:23 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:24 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:24 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:25 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:25 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:26 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:26 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:27 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:27 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:28 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:28 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:29 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:29 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:30 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:30 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:31 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:31 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:32 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:32 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:33 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:33 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:34 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:34 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:35 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:35 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:36 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:36 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:37 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:37 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:38 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:38 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:39 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:39 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:40 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:40 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:41 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:41 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:42 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:42 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:43 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:43 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:44 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:44 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:45 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:45 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:46 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:46 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:47 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:47 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:48 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:48 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:49 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:49 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:50 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:50 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:51 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:51 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:52 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:52 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:53 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:53 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:54 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:54 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:55 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:55 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:56 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:56 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:57 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:57 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:58 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:58 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:30:59 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:30:59 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:00 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:00 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:01 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:01 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:02 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:02 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:03 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:03 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:04 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:04 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:05 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:05 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:06 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:06 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:07 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:07 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:08 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:08 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:09 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:09 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:10 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:10 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:11 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:11 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:12 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:12 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:13 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:13 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:14 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:14 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:15 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:15 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:16 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:16 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:17 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:17 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:18 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:18 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:19 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:19 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:20 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:20 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:21 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:21 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:22 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:22 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:23 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:23 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:24 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:24 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:25 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:25 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:26 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:26 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:27 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:27 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:28 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:28 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:29 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:29 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:30 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:30 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:31 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:31 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:32 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:32 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:33 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:33 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:34 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:34 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:35 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:35 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:36 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:36 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:37 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:37 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:38 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:38 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:39 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:39 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:40 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:40 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:41 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:41 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:42 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:42 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:43 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:43 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:44 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:44 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:45 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:45 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:46 140665800899400 [ERROR] InnoDB: Unable to lock ./ibdata1, error: 11
+2018-05-01 22:31:46 140665800899400 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-01 22:31:46 140665800899400 [Note] InnoDB: Unable to open the first data file
+2018-05-01 22:31:46 7fef4f183b48  InnoDB: Operating system error number 11 in a file operation.
+InnoDB: Error number 11 means 'Resource temporarily unavailable'.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+2018-05-01 22:31:46 140665800899400 [ERROR] InnoDB: Can't open './ibdata1'
+2018-05-01 22:31:46 140665800899400 [ERROR] InnoDB: Could not open or create the system tablespace. If you tried to add new data files to the system tablespace, and it failed here, you should now edit innodb_data_file_path in my.cnf back to what it was, and remove the new ibdata files InnoDB created in this failed attempt. InnoDB only wrote those files full of zeros, but did not yet use them in any way. But be careful: do not remove old data files which contain your precious data!
+2018-05-01 22:31:46 140665800899400 [ERROR] Plugin 'InnoDB' init function returned error.
+2018-05-01 22:31:46 140665800899400 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2018-05-01 22:31:46 140665800899400 [Note] Plugin 'FEEDBACK' is disabled.
+2018-05-01 22:31:46 140665800899400 [ERROR] Unknown/unsupported storage engine: InnoDB
+2018-05-01 22:31:46 140665800899400 [ERROR] Aborting
+
+2018-05-01 22:31:47 140108479609672 [ERROR] mysqld: Can't lock aria control file '/var/lib/mysql/aria_log_control' for exclusive use, error: 11. Will retry for 30 seconds
+2018-05-01 22:32:14 139724180986600 [Note] /usr/bin/mysqld: Normal shutdown
+
+2018-05-01 22:32:14 139724180986600 [Note] Event Scheduler: Purging the queue. 0 events
+2018-05-01 22:32:14 139724182498024 [Note] InnoDB: FTS optimize thread exiting.
+2018-05-01 22:32:14 139724180986600 [Note] InnoDB: Starting shutdown...
+2018-05-01 22:32:15 139724180986600 [Note] InnoDB: Waiting for page_cleaner to finish flushing of buffer pool
+2018-05-01 22:32:17 139724180986600 [Note] InnoDB: Shutdown completed; log sequence number 1616879
+2018-05-01 22:32:17 139724180986600 [Note] /usr/bin/mysqld: Shutdown complete
+
+2018-05-01 22:32:17 140108479609672 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-05-01 22:32:17 140108479609672 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-05-01 22:32:17 140108479609672 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-05-01 22:32:17 140108479609672 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2018-05-01 22:32:17 140108479609672 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2018-05-01 22:32:17 140108479609672 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2018-05-01 22:32:17 140108479609672 [Note] InnoDB: Using Linux native AIO
+2018-05-01 22:32:17 140108479609672 [Note] InnoDB: Using SSE crc32 instructions
+2018-05-01 22:32:17 140108479609672 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2018-05-01 22:32:17 140108479609672 [Note] InnoDB: Completed initialization of buffer pool
+2018-05-01 22:32:17 140108479609672 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-05-01 22:32:17 140108479609672 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-05-01 22:32:17 140108479609672 [Note] InnoDB: Waiting for purge to start
+2018-05-01 22:32:17 140108479609672 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.1 started; log sequence number 1616879
+2018-05-01 22:32:17 140108123384552 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-05-01 22:32:17 140108479609672 [Note] Plugin 'FEEDBACK' is disabled.
+2018-05-01 22:32:17 140108479609672 [Note] Server socket created on IP: '0.0.0.0'.
+2018-05-01 22:32:17 140108122565352 [Note] /usr/bin/mysqld: Normal shutdown
+
+2018-05-01 22:32:17 140108479609672 [Note] /usr/bin/mysqld: ready for connections.
+Version: '10.1.26-MariaDB'  socket: '/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2018-05-01 22:32:17 140108122565352 [Note] Event Scheduler: Purging the queue. 0 events
+2018-05-01 22:32:17 140108123761384 [Note] InnoDB: FTS optimize thread exiting.
+2018-05-01 22:32:17 140108122565352 [Note] InnoDB: Starting shutdown...
+2018-05-01 22:32:18 140108122565352 [Note] InnoDB: Waiting for page_cleaner to finish flushing of buffer pool
+2018-05-01 22:32:20 140108122565352 [Note] InnoDB: Shutdown completed; log sequence number 1616889
+2018-05-01 22:32:20 140108122565352 [Note] /usr/bin/mysqld: Shutdown complete
+
+2018-05-01 22:42:20 140228686723912 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-05-01 22:42:20 140228686723912 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-05-01 22:42:20 140228686723912 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-05-01 22:42:20 140228686723912 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2018-05-01 22:42:20 140228686723912 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2018-05-01 22:42:20 140228686723912 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2018-05-01 22:42:20 140228686723912 [Note] InnoDB: Using Linux native AIO
+2018-05-01 22:42:20 140228686723912 [Note] InnoDB: Using SSE crc32 instructions
+2018-05-01 22:42:20 140228686723912 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2018-05-01 22:42:20 140228686723912 [Note] InnoDB: Completed initialization of buffer pool
+2018-05-01 22:42:20 140228686723912 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-05-01 22:42:20 140228686723912 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-05-01 22:42:20 140228686723912 [Note] InnoDB: Waiting for purge to start
+2018-05-01 22:42:20 140228686723912 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.1 started; log sequence number 1616889
+2018-05-01 22:42:20 140228330498792 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-05-01 22:42:20 140228686723912 [Note] Plugin 'FEEDBACK' is disabled.
+ERROR: 1133  Can't find any matching row in the user table
+2018-05-01 22:42:20 140228686723912 [ERROR] Aborting
+
+2018-05-01 22:42:23 140536509156168 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-05-01 22:42:23 140536509156168 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-05-01 22:42:23 140536509156168 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-05-01 22:42:23 140536509156168 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2018-05-01 22:42:23 140536509156168 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2018-05-01 22:42:23 140536509156168 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2018-05-01 22:42:23 140536509156168 [Note] InnoDB: Using Linux native AIO
+2018-05-01 22:42:23 140536509156168 [Note] InnoDB: Using SSE crc32 instructions
+2018-05-01 22:42:23 140536509156168 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2018-05-01 22:42:23 140536509156168 [Note] InnoDB: Completed initialization of buffer pool
+2018-05-01 22:42:23 140536509156168 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-05-01 22:42:23 140536509156168 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-05-01 22:42:23 140536509156168 [Note] InnoDB: Waiting for purge to start
+2018-05-01 22:42:23 140536509156168 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.1 started; log sequence number 1616915
+2018-05-01 22:42:23 140536152931048 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-05-01 22:42:23 140536509156168 [Note] Plugin 'FEEDBACK' is disabled.
+2018-05-01 22:42:23 140536509156168 [Note] Server socket created on IP: '0.0.0.0'.
+2018-05-01 22:42:23 140536509156168 [Note] /usr/bin/mysqld: ready for connections.
+Version: '10.1.26-MariaDB'  socket: '/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2018-05-02  7:36:45 140536151796456 [Note] /usr/bin/mysqld: Normal shutdown
+
+2018-05-02  7:36:45 140536151796456 [Note] Event Scheduler: Purging the queue. 0 events
+2018-05-02  7:36:45 140536153307880 [Note] InnoDB: FTS optimize thread exiting.
+2018-05-02  7:36:45 140536151796456 [Note] InnoDB: Starting shutdown...
+2018-05-02  7:36:47 140536151796456 [Note] InnoDB: Waiting for page_cleaner to finish flushing of buffer pool
+2018-05-02  7:36:48 140536151796456 [Note] InnoDB: Shutdown completed; log sequence number 1616925
+2018-05-02  7:36:49 140536151796456 [Note] /usr/bin/mysqld: Shutdown complete
+
