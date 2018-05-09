@@ -183,7 +183,7 @@ server.post(api_url+"/user_request", (req, res) => {
                             logger.info("No volume found in host, creating volume...")
                             var exec_query = 'docker run -d --name '+ container_name + ' -v '+container_name+":/var/www/localhost/htdocs/  -e MYSQL_ROOT_PASSWORD=qwerty  "+publish_param + " " + image_name;
                             var output =  JSON.stringify(shell.exec(exec_query));
-                            return res.send({msg: "No existing container matches search, New container created with id", resp: {status: "ok", response: outpiut}})
+                            return res.send({msg: "No existing container matches search, New container created with id", resp: {status: "ok", response: output}})
                         }else{
                             logger.info("Searching for matching volumes...");                           
                             getVolumes.forEach(function(_host_volumes){
