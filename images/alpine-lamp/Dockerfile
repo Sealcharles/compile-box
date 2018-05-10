@@ -83,7 +83,7 @@ RUN chmod u+x /entry.sh
 
 EXPOSE 80 3306 3000 22
 
-RUN node server.js
+CMD node server.js
 
 ENTRYPOINT ["/entry.sh"]
 

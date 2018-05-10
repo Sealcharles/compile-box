@@ -83,12 +83,13 @@ ADD . /var/www/localhost/htdocs/
 
 RUN mkdir /var/www/localhost/htdocs/project
 
-WORKDIR /var/www/localhost/htdocs/nodeJsTree
+WORKDIR /var/www/localhost/htdocs/nodeJsTree/
 
-
-RUN npm install && npm cache clean
+RUN npm install && npm cache --force clean
 
 ENTRYPOINT [ "/root/run.sh" ]
+
+CMD node server.js
 
 
 

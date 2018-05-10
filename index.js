@@ -123,7 +123,7 @@ server.post(api_url+"/user_request", (req, res) => {
                             var output =  JSON.stringify(shell.exec(exec_query));
                             return res.send(Resp.success({msg: "No existing container matches search, New container created with id: "+ container_name, resp:{status: "ok", response: output}}));
                         }else{
-                            logger.info("Searching for matching volumes...");                           
+                            logger.info("Searching for matching volumes...");     
                             
                             getVolumes.forEach(function(_host_volumes){
                                 if (_host_volumes.Name === user_volume)
@@ -135,11 +135,13 @@ server.post(api_url+"/user_request", (req, res) => {
                                 //     var exec_query = 'docker run -d --name '+ container_name + ' -v '+container_name+":/var/www/localhost/htdocs/ --name "+ volume_name +"  -e MYSQL_ROOT_PASSWORD=qwerty  "+publish_param + " " + image_name;
                                 //     return res.send("Ex_id does not exists, created a new container with name "+ shell.exec(exec_query));
                                 // }
+                                
                                 var exec_query = 'docker start '+ container_name;
                                 var output = shell.exec(output)
                                 return res.send(Resp.success({msg: "Container with name "+ container_name + " Found and started, Volume " + host_volumes[0] +" mounted to container " ,resp:{status: "ok", response: output} }));
                             }else{
-                                var exec_query = 'docker run -d --name '+ container_name + ' -v '+user_volume+":/var/www/localhost/htdocs/  "+ volume_name +"  -e MYSQL_ROOT_PASSWORD=qwerty  "+publish_param + " " + image_name;
+                                logger.info("No volume match found!!!");
+                                var exec_query = 'docker run -d --name '+ container_name + ' -v '+_app_path+user_volume+":/var/www/localhost/htdocs/  " + "  -e MYSQL_ROOT_PASSWORD=qwerty  "+publish_param + " " + image_name;
                                 var output = shell.exec(exec_query);
                                 return res.send(Resp.success({msg: "Ex_id does not exists, created a new container with name ", resp:{status: "ok", response: output}}));
                             }
@@ -196,6 +198,8 @@ server.post(api_url+"/user_request", (req, res) => {
                             // })
         
                             if (host_volumes[0] === user_volume){
+                                console.log(image_name)
+                                logger.info("Found Volume Match, starting container woth volume mounted")
                                 shell.exec('docker cp '+_app_path+' '+container_name+':/var/www/localhost/htdocs')
                                 var output = shell.exec('docker restart '+ container_name);
                                 return res.send({msg:"Container with name "+ container_name + " Found, copied to htdocs folder and started, Volume " + host_volumes[0] +" mounted to container ", resp: {status: "ok", response: output}})
@@ -206,14 +210,15 @@ server.post(api_url+"/user_request", (req, res) => {
                             }
                         }      
                     }else {
-                        _container_name = container_name+initial_code+right_answer;
-                        container_name = hash(_container_name.toString());
+                        container_name = container_name+"yes"+"no";
+                        // container_name = hash(_container_name.toString());
                         user_volume = container_name;
                         if (getVolumes == null || getVolumes == ""){
                             var exec_query = 'docker run -d --name '+ container_name + ' -v '+container_name+":/var/www/localhost/htdocs/  -e MYSQL_ROOT_PASSWORD=qwerty  "+publish_param + " " + image_name;
                             var output =  JSON.stringify(shell.exec(exec_query));
                             return res.send(output);
                         }else{
+
                             getVolumes.forEach(function(_host_volumes){
                                 host_volumes.push(_host_volumes.Name);     
                             })
