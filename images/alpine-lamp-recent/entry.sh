@@ -46,4 +46,6 @@ rm -f $tfile
 
 # start mysql
 # nohup mysqld_safe --skip-grant-tables --bind-address 0.0.0.0 --user mysql > /dev/null 2>&1 &
-exec /usr/bin/mysqld --user=root --bind-address=0.0.0.0
+ sh run.sh 
+ exec /usr/bin/mysqld --user=root --bind-address=0.0.0.0 
+
