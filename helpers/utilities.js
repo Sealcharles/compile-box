@@ -3,9 +3,6 @@
 
 const request = require("unirest");
 
-
-
-
 var Utility = {
     _get: function(baseUrl){
 

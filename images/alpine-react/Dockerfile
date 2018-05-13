@@ -66,7 +66,14 @@ RUN apk add --no-cache --virtual .build-deps-yarn curl gnupg tar \
   && apk del .build-deps-yarn
 
 
-# Add nodejstree
+# Installing MongoDB
+RUN apk add --no-cache mongodb && \
+rm /usr/bin/mongoperf
+
+VOLUME /data/db
+
+COPY run.sh /root
+
 ADD . /var/www/localhost/htdocs/
 
 RUN mkdir /var/www/localhost/htdocs/project
@@ -75,16 +82,6 @@ WORKDIR /var/www/localhost/htdocs/nodeJsTree/
 
 RUN npm install && npm cache --force clean
 
-# Installing MongoDB
-RUN \
-apk add --no-cache mongodb && \
-rm /usr/bin/mongoperf
-
-VOLUME /data/db
 EXPOSE 27017 28017
 
-COPY run.sh /root
-
 ENTRYPOINT [ "/root/run.sh" ]
-
-CMD node server.js

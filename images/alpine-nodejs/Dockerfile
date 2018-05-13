@@ -89,7 +89,6 @@ RUN npm install && npm cache --force clean
 
 ENTRYPOINT [ "/root/run.sh" ]
 
-CMD node server.js
 
 
 

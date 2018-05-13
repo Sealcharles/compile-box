@@ -1,16 +1,30 @@
-FROM milenium1/alpine-laravel-base
-MAINTAINER sealcharles77 <sealcharles77@gmail.com>
+FROM php:alpine
+LABEL maintainer="hitalos <hitalos@gmail.com>"
 
-RUN apk add --update nodejs nodejs-npm
+RUN apk update && apk upgrade && apk add bash git
 
-ADD . /var/www/
+# Install PHP extensions
+ADD install-php.sh /usr/sbin/install-php.sh
+RUN /usr/sbin/install-php.sh
 
-RUN mkdir /var/www/project
+# Download and install NodeJS
+ENV NODE_VERSION 10.0.0
+ADD install-node.sh /usr/sbin/install-node.sh
+RUN /usr/sbin/install-node.sh
+RUN npm i -g yarn
+
+RUN mkdir -p /etc/ssl/certs && update-ca-certificates
+
+
+# Add nodejstree
+ADD . /var/www/localhost/htdocs/
+
+RUN mkdir /var/www/localhost/htdocs/project
 
 WORKDIR /var/www/localhost/htdocs/nodeJsTree/
 
-RUN npm install && npm cache  --force clean
+RUN npm install && npm cache --force clean
 
-EXPOSE 80 3306 3000 22
-  
-CMD node server.js
+CMD ./run.sh
+
+# HEALTHCHECK --interval=1m CMD curl -f http://localhost/ || exit 1
