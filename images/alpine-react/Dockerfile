@@ -82,6 +82,6 @@ WORKDIR /var/www/localhost/htdocs/nodeJsTree/
 
 RUN npm install && npm cache --force clean
 
-EXPOSE 27017 28017
+EXPOSE 27017 28017 22 3000 80
 
 ENTRYPOINT [ "/root/run.sh" ]
